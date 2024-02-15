@@ -11,6 +11,8 @@
 		DBB707C32B7B0F9500D2BF02 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB707C22B7B0F9500D2BF02 /* ContentView.swift */; };
 		DBB707C52B7B0F9700D2BF02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB707C42B7B0F9700D2BF02 /* Assets.xcassets */; };
 		DBB707C82B7B0F9700D2BF02 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBB707C72B7B0F9700D2BF02 /* Preview Assets.xcassets */; };
+		DBB707CF2B7B1D9500D2BF02 /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB707CE2B7B1D9500D2BF02 /* Tab.swift */; };
+		DBB707D12B7B1E4F00D2BF02 /* CustomTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBB707D02B7B1E4F00D2BF02 /* CustomTabBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		DBB707C22B7B0F9500D2BF02 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DBB707C42B7B0F9700D2BF02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DBB707C72B7B0F9700D2BF02 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DBB707CE2B7B1D9500D2BF02 /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		DBB707D02B7B1E4F00D2BF02 /* CustomTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				DBB707C02B7B0F9500D2BF02 /* CustomTabBarApp.swift */,
 				DBB707C22B7B0F9500D2BF02 /* ContentView.swift */,
+				DBB707CE2B7B1D9500D2BF02 /* Tab.swift */,
+				DBB707D02B7B1E4F00D2BF02 /* CustomTabBarView.swift */,
 				DBB707C42B7B0F9700D2BF02 /* Assets.xcassets */,
 				DBB707C62B7B0F9700D2BF02 /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBB707D12B7B1E4F00D2BF02 /* CustomTabBarView.swift in Sources */,
+				DBB707CF2B7B1D9500D2BF02 /* Tab.swift in Sources */,
 				DBB707C32B7B0F9500D2BF02 /* ContentView.swift in Sources */,
 				DBB707C12B7B0F9500D2BF02 /* CustomTabBarApp.swift in Sources */,
 			);
